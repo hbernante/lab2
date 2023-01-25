@@ -10,7 +10,8 @@
 	<body>
 	
 	<div class="wrapper">
-		<div class="sidebar">
+		<div class="sidebar" id="navLinks">
+			<!--<i class="fa fa-times" onclick="hideMenu()"></i>-->
 			<h2>:Main Menu:</h2>
 			<ul>
 				<li><a href="#"><i class="fa-solid fa-house-user"></i> HOME</a></li>
@@ -23,21 +24,42 @@
 				<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
 				<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
 			</div>
-			
+			<!--<i class="fa fa-bars" onclick="showMenu()"></i>-->
 		</div>
 		<div class="main_content">
 			<div class="header">
 					Hello, welcome to Hanzel Bernante's Website!
 			</div>
 			<div class="info">
+				<section>
+					<div class="pic">
+						<img style="border: 2px solid white" src="hanzel.jpg" alt="Hanzel's Picture" width="400">
+					</div>
 				<div class="text-box">
-					<h1>My name is Hanzel Bernate</h1>
+				<br>
+				<br>
+					<h1>My name is Hanzel Bernante</h1>
 					<p>I am a second year college student at Asia Pacific College</p>
 					<a href="" class="info-btn">Click here to know my detailed information</a>
 				</div>
+				</section>
 			</div>
 		</div>
 	</div>
+	
+	
+	
+	
+	<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	</script>
 	
 	</body>
 </html>

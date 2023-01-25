@@ -144,3 +144,24 @@ body{
 	transition: 1s;
 	color: ;
 }
+
+@media(max-width: 700px){
+	.text-box h1{
+	font-size: 20px;
+	}
+	
+	.nav-links ul li{
+		display: block;
+	}
+	
+	nav-links{
+		position: absolute;
+		background: ;
+		height: 
+	}
+}
+
+.pic {
+	display: flex;
+	justify-content: center;
+}
