@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hanzel Bernante WEBPROG</title>
+</head>
+<body>
+
+<h1>Hello my name is Hanzel Bernante</h1>
+<h2>but you can call me "Zel"</h2>
+<h2>Here are some basic information about myself</h2>
+<h3>
+<br>Gender: Male
+<br>Hobbies: Computer, Watching Movies, Table Tennis, and Working Out
+<img src="hanzel.jpg">
+</h3>
+
+
+<p>
+
+
+</p>
+
+<h1>This is the list of W3 School Courses that I have finished</h1>
+<a href="https://www.w3schools.com/html/default.asp">Lesson 1.1</a>
+<a href="https://www.w3schools.com/html/html_intro.asp">Lesson 1.2</a>
+<a href="https://www.w3schools.com/html/html_editors.asp">Lesson 1.3</a>
+<a href="https://www.w3schools.com/html/html_basic.asp">Lesson 1.4</a>
+<a href="https://www.w3schools.com/html/html_elements.asp">Lesson 1.5</a>
+<a href="https://www.w3schools.com/html/html_attributes.asp">Lesson 1.6</a>
+<a href="https://www.w3schools.com/html/html_headings.asp">Lesson 1.7</a>
+
+</body>
+</html> 
