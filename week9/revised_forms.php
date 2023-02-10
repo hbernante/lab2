@@ -124,10 +124,12 @@ echo "<br>";
 echo $gender;
 ?>
 
+<br>
+
 <?php 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
-	$servername = "localhost";
+	$servername = "webprogmi211";
 	$username = "webprogmi211";
 	$password = "webprogmi211";
 	$dbname = "hbernante_myguests";
