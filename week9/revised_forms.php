@@ -177,8 +177,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
           if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-              echo "<br> Name: " . $row["name"]. " - Email: " . $row["email"]. " - Website: " . $row["website"].
-              " - Comment: " . $row["comment"]. " - Gender: " . $row["gender"]. "<br>";
+              echo 
+			  "<br> Name: " . $row["name"]. 
+			  " <br> - Email: " . $row["email"]. 
+			  " <br> - Website: " . $row["website"].
+              " <br> - Comment: " . $row["comment"]. 
+			  " <br> - Gender: " . $row["gender"]. "<br>";
             }
           } else {
             echo "0 results";
